@@ -1,11 +1,11 @@
-import globe from "../assets/globe.png";
+import globe from "../images/globe.png";
 
 export default function Header() {
     return (
         <header>
             <div className="title">
                 <img src={globe} alt="World Image" />
-                <p>my travel journal</p>
+                <h1>my travel journal.</h1>
             </div>
         </header>
     );
